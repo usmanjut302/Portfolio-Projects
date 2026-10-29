@@ -1,0 +1,21 @@
+2026-10-26 13:34:11,372 - ERROR - do not save due to unexpexted error
+2026-10-26 14:23:19,794 - ERROR - Unexpected error while retrieving expenses
+Traceback (most recent call last):
+  File "F:\ultiamte course\Portfolio Projects\ai_expense_tracker\expense.py", line 56, in display_expenses
+    raise RuntimeError("Test retrieval error handling")
+RuntimeError: Test retrieval error handling
+2026-10-28 14:05:26,984 - ERROR - Unexpected error while retrieving category-wise report
+Traceback (most recent call last):
+  File "F:\ultiamte course\Portfolio Projects\ai_expense_tracker\main.py", line 67, in main
+    raise RuntimeError("Test category report error handling")
+RuntimeError: Test category report error handling
+2026-10-28 14:07:37,167 - ERROR - Unexpected error while retrieving category-wise report
+Traceback (most recent call last):
+  File "F:\ultiamte course\Portfolio Projects\ai_expense_tracker\main.py", line 67, in main
+    raise RuntimeError("Test category report error handling")
+RuntimeError: Test category report error handling
+2026-10-28 14:07:59,906 - ERROR - Unexpected error while retrieving category-wise report
+Traceback (most recent call last):
+  File "F:\ultiamte course\Portfolio Projects\ai_expense_tracker\main.py", line 67, in main
+    raise RuntimeError("Test category report error handling")
+RuntimeError: Test category report error handling
